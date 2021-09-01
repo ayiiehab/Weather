@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", "Open Sans", sans-serif;
+}
+nav{
+    background-color: #1e202b;
+}
+nav .branding {
+    position: relative;
+    color: #fff;
+}
+nav .branding h1{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+nav .branding .site-description{
+    font-size: smaller;
+}
+nav .logo-type{
+    position: absolute;
+    top:0%;
+    left: 20%;
+}
+nav .nav-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+nav .nav-menu ul li a{
+    padding: 5px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: 0.3s ease;
+    font-weight: 400;
+}
+nav .nav-menu ul li:hover a{
+    border: 2px solid #009ad8;
+    color: #009ad8; 
+}
+/*-------------end nav ------------*/
+
+header{
+    background-image: url(../image/pexels-pixabay-417045.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+header .location{
+    position: absolute;
+    top:45%;
+    
+}
+header .location input , footer input{
+    background-color: #1e202b;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+header .location button , footer button{
+    width: 10%;
+    position: absolute;
+    top:10%;
+    right: 2%;
+    background-color: #009ad8 ;
+    color: #fff;
+    border: none;
+    padding: 10px 22px;
+   
+}
+.fristlook{
+    z-index: 1324325;
+    position: absolute;
+    top:60%;
+    left: 10%;
+}
+.forecast .state{
+    color: #009ad8;
+}
+.forecast #city{
+    color: #fff;
+    font-size: 25px;
+}
+
+.forecast .today , .forecast .after{
+    color: #bfc1c8;
+    background-color:  #313446;
+    ;
+}
+.forecast #icons i{
+    font-size: 20px;
+    color: rgba(219, 219, 219, 0.678);
+}
+.forecast #icons .icon-color{
+    color: #ffffff;
+}
+.forecast .today .forecast-header , .forecast .after .forecast-header{
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+.forecast .tom{
+    color: #bfc1c8;
+    background-color:  #282a3a;
+    
+}
+.forecast .today .forecast-header{
+    padding: 0px 10px;
+
+}
+.forecast .tom .forecast-header , .forecast .after .forecast-header{
+    padding: 0.5px
+}
+.forecast .tom .forecast-header{
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+.forecast .today #degree , .forecast .after #degreeAfter , .forecast .tom #degreeTom{
+    color: #fff;
+    font-size: 40px;
+}
+
+.forecast #degreeSmallTom , .forecast #degreeSmallAfter {
+    font-size: 18px;
+}
+/* -------------------- end -----------------*/
+
+.layer{
+    background-color: #1e202b ;
+    height: 200px;
+}
+footer{
+    background-color: #313446 ;
+    height: 225px;
+}
+footer button{
+    width: 15%;
+    right: 3%;
+    top:6%;
+}
+footer .social-links a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-size: 20px;
+    font-size: 1.4285714286em;
+    padding:10px 0;
+    margin: 5px;
+}
+footer .social-links a:hover{
+    color: #fff;
+    background-color: #009ad8;
+}
